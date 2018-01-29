@@ -1,0 +1,22 @@
+{
+  "name": "sr",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "node .",
+    "build": "next build",
+    "start": "NODE_ENV=production node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "MRW Neundorf <m.neundorf@live.de>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "next": "^4.2.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
