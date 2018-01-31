@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "nodemon .",
-    "build": "next build",
+    "build": "next build client/",
     "start": "NODE_ENV=production node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
